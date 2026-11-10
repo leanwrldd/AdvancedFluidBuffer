@@ -25,7 +25,7 @@ It unlocks together with the Industrial Fluid Buffer.
 
 ## Status
 
-Experimental (0.1.0). Not yet fully tested in game: port push/pull behaviour, ladder, LODs and paint swatches are unverified, and multiplayer and dedicated servers are untested.
+multiplayer and dedicated servers are untested.
 
 ## Requirements
 
