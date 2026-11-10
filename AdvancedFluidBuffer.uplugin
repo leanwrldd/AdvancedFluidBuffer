@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"Version": 1,
+	"Version": 0,
 	"VersionName": "0.1.0",
 	"FriendlyName": "Advanced Fluid Buffer",
 	"Description": "A fluid tank with three ports: a two-way free-flow port that works like a Fluid Buffer, a controlled outlet that only releases fluid above 75% full, and a controlled inlet that only accepts fluid below 75% full.",
