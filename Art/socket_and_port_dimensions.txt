@@ -1,0 +1,23 @@
+========== OVERFLOW TANK COMPLETE ==========
+1 Blender unit = 1 cm; internal floor/top = 90.00/780.00 cm
+Internal liquid height: 690.00 cm
+Overflow centerline: 607.50 cm above floor (75% of usable height)
+80% surface: 642.00 cm
+SM_OverflowTank: 24,808 triangles
+SM_OverflowTank_Liquid: 256 triangles
+SM_OverflowTank_Glass: 28 triangles
+SM_OverflowTank_LOD1: 12,404 triangles
+SM_OverflowTank_LOD2: 4,960 triangles
+{'name': 'Socket_Port1_Inlet', 'location_cm': [0.0, 290.0, 175.0], 'rotation_degrees': {'pitch': 0, 'yaw': 90.0, 'roll': 0}}
+{'name': 'Socket_Port2_Outlet', 'location_cm': [0.0, -290.0, 175.0], 'rotation_degrees': {'pitch': 0, 'yaw': -90.0, 'roll': 0}}
+{'name': 'Socket_Port3_Overflow', 'location_cm': [290.0, 0.0, 607.5], 'rotation_degrees': {'pitch': 0, 'yaw': 0.0, 'roll': 0}}
+Port mouth/throat diameters: 150.0 / 146.0 cm
+Port flange diameter: 200.0 cm; flange depth: 20.0 cm
+Port housing: 232.0 x 212.0 cm
+Port bolt pattern: 12 on 179.0 cm PCD; head diameter 11.6 cm
+Port seating depth before recessed cap: 96.0 cm
+Five UCX hulls; two UV channels; applied geometry chamfers; exported mesh stripes.
+Socket transforms also available in Blender Text: OverflowTank_ImportManifest.json
+
+VALIDATION: Blender 5.2.3 LTS, complete script execution, UV packing, applied LODs, five FBX exports, manifold meshes/hulls and socket orientations: PASS.
+Blender 4.x and Unreal import were not run. Existing exporter function/settings/file names and socket definitions are unchanged.

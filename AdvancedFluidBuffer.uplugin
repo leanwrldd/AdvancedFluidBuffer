@@ -1,0 +1,34 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "0.1.0",
+	"FriendlyName": "Advanced Fluid Buffer",
+	"Description": "A fluid tank with three ports: a two-way free-flow port that works like a Fluid Buffer, a controlled outlet that only releases fluid above 75% full, and a controlled inlet that only accepts fluid below 75% full.",
+	"Category": "Modding",
+	"CreatedBy": "leanwrldd",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": true,
+	"Installed": false,
+	"BuiltInInitialFeatureState": "Active",
+	"Modules": [
+		{
+			"Name": "AdvancedFluidBuffer",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "SML",
+			"Enabled": true,
+			"SemVersion": "^3.12.0"
+		}
+	],
+	"SemVersion": "0.1.0",
+	"GameVersion": ">=491125"
+}
